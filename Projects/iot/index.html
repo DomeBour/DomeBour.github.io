@@ -38,8 +38,15 @@
   <div class="container">
     <div class="row my-3">
       <div class="col-12 text-light">
-        <h1 class="text-center w-100">CupCup</h1>
-        <p class="text-center">kurze Beschreibung</p>
+        <h1 class="text-center w-100">Friendship Bracelet - Internet of Things</h1>
+        <p class="text-center">Im Verlauf des Kurses IOT bildeten wir Gruppen, in denen wir einen Prototyp gestalten sollten. Dieser müsste die Rahmenbedingungen der IOT-Geräte erfüllen. Die Umsetzung der Rahmenbedingung war frei.<br>
+          Der Prototyp musste mehrere Voraussetzungen erfüllen. Er sollte zwei mindestens zwei Endpunkte verfügen. Dementsprechend brauchte, man mindestens zwei Prototypen, die miteinander verbunden sind. Beide Geräte sollen über mindestens einen Sensor sowie Aktor verfügen. Sensoren erfassen Daten und Aktoren führen Aktionen mithilfe der gesammelten Daten aus. All diese Voraussetzungen standen unter dem Thema „Nähe über Distanz“.<br><br>
+          Wir überlegten, wie man Nähe über Distanz erfüllen könnte und welche Interaktionen Nähe unter Personen bilden. Die Diskussion bereitete sich, welche Interaktionen mit Sensoren und Aktoren möglich wären, die eine Nähe zum anderen trotz Distanz schaffen könnten. Es gab Ideen über Geräusche, Lichter bis hin zu Berührungen. <br>
+          Zuletzt entschieden wir uns, die Nähe zu einer anderen Person über eine Berührung umzusetzen und überlegten verschiedene Möglichkeiten diese umzusetzen. Wir entschieden uns für die Berührung aufgrund der physischen Stimulation, wenn jemand einen berührt, wird einem durch die Berührung bewusst, dass jemand bei einem ist, auch wenn man die Person nicht gesehen hat. 
+          Nach reichlicher Überlegung erschlossen wir eine Vision eines Gerätes, das für uns der Thematik der „Nähe über Distanz“ gerecht wird. Unsere Vision war ein Freundschaftsarmband, welches durch das Zusammendrücken des Armbandes ein Signal, an das Partner Armband sendet und dieses sich zusammenzieht. Um eine physische Berührung zu simulieren. <br><br>
+          Unser Ziel, mit dieser Interaktion war den Nutzern zu ermöglichen, sich gegenseitig ein Zeichen zu geben, dass sie an den jeweils anderen denken. Schon allein ein Signal, dass ein enger Freund oder Partnerin an einen denkt, lässt eine Person deutlich besser fühlen und kann in einigen Situationen sogar Mut machen. Zumal es auch ein nähe Gefühl schafft, dass jemand bei einem ist, auch wenn nicht physisch, aber geistig. Diese emotionale Nähe wollten wir mit unserem Armband umsetzen. <br><br>
+          Der Prototyp, den wir geplant haben, sollte, folgendermaßen gestaltet werden. Das Armband besteht aus einem Mechanismus, der kleinen Plättchen beim Drehen nach innen rotiert, um Druck auszuüben. Die Drehung des Armbands wird über einen Servos gewährleistet. Die Drehweite wird über ein Potenziometer festgelegt. Legt der Nutzer, die Drehweite fest, drückt dieser auf den Knopf und dieser Wert wird an das Partnerarmband versendet, jenes Armband dreht die Plättchen in dir richtige Position und drückt auf den Arm des Trägers. Die Verbindung zwischen den Armbändern wird über das MQTT-Protokoll gewährleistet. Zuletzt wird den Nutzern über LEDs der Zustand des Armbandes angezeigt. Senden sowie das Empfangen von Daten haben eigene Farben, um den Nutzern eine visuelle Rückmeldung zu geben.
+          </p>
 
       </div>
     </div>
@@ -55,31 +62,49 @@
               aria-label="Slide 3"></button>
             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+              aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5"
+              aria-label="Slide 6"></button>
           </div>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="images/placeholder.png" class="d-block w-100" alt="...">
+              <img src="images/demo.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block text-dark">
                 <h5>First slide label</h5>
                 <p>Some representative placeholder content for the first slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/placeholder2.png" class="d-block w-100" alt="...">
+              <img src="images/model.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block text-dark">
                 <h5>Second slide label</h5>
                 <p>Some representative placeholder content for the second slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/placeholder3.png" class="d-block w-100" alt="...">
+              <img src="images/motoren.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block text-dark">
                 <h5>Third slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img src="images/placeholder4.png" class="d-block w-100" alt="...">
+              <img src="images/nfcimplem.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>4th slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/model2.png" class="d-block w-100" alt="...">
+              <div class="carousel-caption d-none d-md-block text-dark">
+                <h5>4th slide label</h5>
+                <p>Some representative placeholder content for the third slide.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/beidemodelle.png" class="d-block w-100" alt="...">
               <div class="carousel-caption d-none d-md-block text-dark">
                 <h5>4th slide label</h5>
                 <p>Some representative placeholder content for the third slide.</p>
