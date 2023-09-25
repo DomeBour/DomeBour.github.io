@@ -1,6 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    box-sizing: border-box;
+body {
+    background-color: #131313;
+}
+
+.nav-link:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.nav-link{
+    border-bottom: 2px solid #212529;
+}
+
+.btn-primary {
+    background-color: #212529 !important;
+}
+
+.btn-primary:hover {
+    background-color: #5e5e5e !important;
 }
